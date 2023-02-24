@@ -1,0 +1,61 @@
+.split {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+}
+
+#spreadsheetSim {
+  height: fit-content;
+  width: fit-content;
+  border-spacing: 0px;
+  color: #999;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#spreadsheetSim td,th {
+  border: 1px solid #e7e7e7;
+  min-width: 3em;
+  max-width: 6em;
+}
+
+#spreadsheetSim .firstRow th {
+  background: #afafaf;
+}
+
+#spreadsheetSim th {
+  background-color: #f5f5f5;
+}
+
+#spreadsheetSim th.addButtons {
+  background: #afafaf;
+  min-width: 1.6em;
+  color: #004a96;
+}
+
+#spreadsheetSim input {
+  border: none;
+  padding: 0;
+  line-height: 1.6em;
+  width: -webkit-fill-available;
+}
+
+.json {
+  white-space: break-spaces;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.json div {
+  padding: 0 10px 10px 10px;
+}
+
+.split button {
+  width: fit-content;
+}
+
+.wsStatus span {
+  vertical-align: middle;
+}
